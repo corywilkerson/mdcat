@@ -12,6 +12,12 @@ cat notes.md | mdcat --width 72
 mdcat --color always examples/showcase.md | less -R
 ```
 
+![mdcat rendering headings, nested lists, and a syntax-highlighted Rust block](docs/screenshots/overview.png)
+
+Syntax-highlighted code, with indentation and blank lines preserved:
+
+![mdcat rendering Rust and Python code blocks](docs/screenshots/code.png)
+
 ## Install
 
 Requires Rust 1.85 or newer and Cargo.
@@ -46,17 +52,6 @@ below. It is not published to crates.io.
 
 Browse the [example gallery](examples/README.md). Its plain-text previews are
 checked in under [tests/snapshots](tests/snapshots) at 60 columns.
-
-```text
-Release checklist
-─────────────────
-
-• [x] Review the changes
-  • Keep the details
-• [ ] Ship the release
-
-│ Good tools keep the small details intact.
-```
 
 ## Output controls
 

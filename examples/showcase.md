@@ -3,13 +3,13 @@
 Markdown worth reading, right in your terminal. Try **bold**,
 _emphasis_, ~~strikethrough~~, and `inline code`.
 
-## A small release checklist
+## A little structure
 
-- [x] Keep parent items when lists nest
-  - Include the details
-  - Preserve the hierarchy
-- [x] Make links useful in pipes
-- [ ] Ship something worth keeping
+- Notes
+  - Ideas worth returning to
+  - Details that belong together
+- Small tools
+- Room to think
 
 Read the [guide](https://example.com/guide), or visit
 <https://example.com> directly.

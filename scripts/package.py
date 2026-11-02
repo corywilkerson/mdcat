@@ -43,6 +43,7 @@ def main():
         for file in ("README.md", "CHANGELOG.md", "LICENSE"):
             shutil.copy2(ROOT / file, bundle / file)
         shutil.copytree(ROOT / "examples", bundle / "examples")
+        shutil.copytree(ROOT / "docs" / "screenshots", bundle / "docs" / "screenshots")
         shutil.copytree(ROOT / "tests" / "snapshots", bundle / "tests" / "snapshots")
         with tarfile.open(archive, "w:gz") as tar:
             tar.add(bundle, arcname=name)

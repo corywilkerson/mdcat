@@ -9,7 +9,7 @@ repository = "https://github.com/corywilkerson/mdcat"
 publish = false
 keywords = ["markdown", "terminal", "cli", "syntax-highlighting"]
 categories = ["command-line-utilities", "text-processing"]
-include = ["/src/**", "/tests/**", "/examples/**", "/scripts/**", "/README.md", "/CHANGELOG.md", "/LICENSE", "/Cargo.lock"]
+include = ["/src/**", "/tests/**", "/examples/**", "/scripts/**", "/docs/screenshots/**", "/README.md", "/CHANGELOG.md", "/LICENSE", "/Cargo.lock"]
 
 [dependencies]
 pulldown-cmark = "0.10"
