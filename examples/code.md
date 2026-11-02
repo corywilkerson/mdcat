@@ -1,0 +1,54 @@
+# Code that survives rendering
+
+Language labels use the first word of a fenced block's info
+string. Known languages get syntax colors in styled output.
+
+## Rust
+
+```rust title=hello.rs
+fn main() {
+    let names = ["Ada", "Grace"];
+    for name in names {
+        println!("Hello, {name}!");
+    }
+}
+```
+
+## Python
+
+```python
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("terminal"))
+```
+
+## JSON
+
+```json
+{"readable": true, "nested": [1, 2, 3]}
+```
+
+## Unknown language
+
+```made-up
+This remains readable even without a matching highlighter.
+```
+
+## No silent truncation
+
+```
+This intentionally long code line remains complete even when the chosen prose width is much smaller than this sentence.
+```
+
+## Indented code
+
+    first line
+
+    third line, after a blank line
+
+## Code in a quote
+
+> ```sh
+> printf '%s\n' "Hello, terminal!"
+> ```
