@@ -12,11 +12,11 @@ cat notes.md | mdcat --width 72
 mdcat --color always examples/showcase.md | less -R
 ```
 
-![mdcat rendering headings, nested lists, and a syntax-highlighted Rust block](docs/screenshots/overview.png)
+<img src="docs/screenshots/overview.png" width="850" alt="mdcat rendering headings, nested lists, and a syntax-highlighted Rust block">
 
 Syntax-highlighted code, with indentation and blank lines preserved:
 
-![mdcat rendering Rust and Python code blocks](docs/screenshots/code.png)
+<img src="docs/screenshots/code.png" width="850" alt="mdcat rendering Rust, Python, and JSON code blocks">
 
 ## Install
 
